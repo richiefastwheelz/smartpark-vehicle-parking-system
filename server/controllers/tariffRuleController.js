@@ -45,4 +45,3 @@ exports.delete = (req, res) => {
     res.status(200).json({ success: true, message: "Deleted successfully" });
   });
 };
-// Fixed by Richie: PascalCase model import verified
